@@ -1,0 +1,128 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  /* Simplified background for a clean look */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  /* margin-top: 10rem; */
+  padding: 20px;
+  background-color: #e0dfdf;
+  /* height: 10rem; */
+  /* align-items: flex-start; */
+  /* Optional: may enhance visual separation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  border-radius: 8px;
+  /* Softened edges */
+}
+
+.searchcontainer {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: flex-start; */
+  /* Improved spacing */
+  margin-bottom: 40px;
+  /* Increased spacing for visual separation */
+}
+
+.searchcontainer input[type="text"] {
+  flex-grow: 1;
+  /* Input field takes available space */
+  padding: 10px;
+  border: 2px solid #ddd;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  /* Lighter border */
+  border-radius: 20px;
+  /* Rounded edges for input */
+  margin-right: 10px;
+  /* Adjusted spacing */
+}
+
+.searchcontainer button {
+  padding: 10px 20px;
+  border: none;
+  /* Cleaner look without border */
+  border-radius: 20px;
+  /* Consistent rounded edges */
+  background-color: #1976b8;
+  /* A more vibrant button color */
+  color: white;
+  /* Contrast text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Smooth transition for interaction */
+}
+
+.searchcontainer button:hover {
+  background-color: #0e3a69;
+  /* Darker shade on hover for feedback */
+}
+
+.auctioncard {
+  display: flex;
+  border: none;
+  /* Remove border for a cleaner look */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  /* Match container background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+.auctioncard:hover {
+  display: flex;
+  border: none;
+  /* Remove border for a cleaner look */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #cbcaca;
+  /* Match container background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+.itemimage {
+  width: 150px;
+  /* Adjusted for balance */
+  height: 150px;
+  /* Uniform height */
+  object-fit: cover;
+  /* Ensure images cover the area nicely */
+  border-radius: 10px;
+  /* Rounded corners for images */
+  margin-right: 20px;
+}
+
+.auctiondetails {
+  flex: 1;
+}
+
+.auctiontitle,
+.description,
+p {
+  color: #000000;
+  /* Darker text for better readability */
+}
+
+.auctiontitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  /* Larger title for emphasis */
+}
+
+.description {
+  margin-bottom: 15px;
+  /* More spacing for clarity */
+  font-size: 16px;
+  /* Slightly larger for readability */
+}

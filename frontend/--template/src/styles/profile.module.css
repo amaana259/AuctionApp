@@ -1,0 +1,112 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f0f6f7, #ffffff);
+  /* Subtle gradient for a refined look */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  /* Increased margin for more breathing space */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #a71f1f;
+  /* Solid white for cleanliness */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Softer shadow for depth without being too intrusive */
+}
+
+.profileinfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  /* More space between sections */
+}
+
+.profileimage img {
+  width: 100px;
+  /* Ensuring size consistency */
+  height: 100px;
+  /* Matching height to maintain aspect ratio */
+  border-radius: 50%;
+  /* Circular image */
+  object-fit: cover;
+  /* Ensures the image covers the space nicely */
+}
+
+.userdetails h2,
+.userdetails p {
+  margin: 0;
+  margin-left: 20px;
+  padding: 5px 0;
+  color: #333;
+  /* Adding some vertical padding for readability */
+}
+
+.userdetails h2 {
+  font-size: 24px;
+  /* Larger font size for name */
+  color: #333;
+  /* Darker color for better readability */
+}
+
+.auctionlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.auctioncard {
+  border: 1px solid #eaeaea;
+  /* Lighter border for subtlety */
+  border-radius: 10px;
+  /* Slightly more rounded edges for a modern touch */
+  padding: 1px;
+  background-color: #fff;
+  box-shadow: 0 10px 5px rgba(191, 34, 34, 0.05);
+  /* Lighter shadow for a gentle depth effect */
+}
+
+.auctioncard h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  /* More space above descriptions */
+  font-size: 16px;
+  /* Adjusting for visual hierarchy */
+  color: #0e4e92;
+  /* Adding a hint of color to titles */
+}
+.auctioncard h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  /* More space above descriptions */
+  font-size: 12px;
+  /* Adjusting for visual hierarchy */
+  color: #301198;
+  /* Adding a hint of color to titles */
+}
+
+.profileactions button {
+  padding: 10px 20px;
+  border: none;
+  /* Removing border for a cleaner look */
+  border-radius: 20px;
+  /* More pronounced rounded edges */
+  background-color: #047cab;
+  /* A vibrant, consistent color for actions */
+  color: white;
+  /* White text for contrast */
+  cursor: pointer;
+  margin-right: 10px;
+  /* Consistent spacing between buttons */
+  transition: background-color 0.2s;
+  /* Smooth transition for interaction */
+}
+
+.profileactions button:hover {
+  background-color: #0056b3;
+  /* Darker on hover for feedback */
+}
